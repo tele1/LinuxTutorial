@@ -100,6 +100,11 @@ Table of Contents.
 
 
 * ## [10. Useful links](DATA/10.Useful.links.md)
+    * 10.1 Diagnosing Problems
+    * 10.2 Documentation
+    * 10.3 Linux Wiki
+    * 10.4 Other
+    * 10.5 Books
 
 
 * ## 11. A few words to close

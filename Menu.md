@@ -1,7 +1,7 @@
 # Experience with system logs
 
-Version:             4 Beta    
-Last Edition:      10/03/2021  
+Version:             5 Beta    
+Last Edition:      18/11/2021  
 License:             GNU GPL v3    
 Used markup language:      **Markdown** <https://daringfireball.net/projects/markdown/syntax>       
 Used editor:                         **ReText**  
@@ -23,7 +23,7 @@ Table of Contents.
 
 * ## [2. System and Hardware Information Tools](DATA/2.System.and.Hardware.Information.Tools.md)
     * Larger tools
-    * Smaller tools
+    * Examples of smaller other tools:
 
 
 * ## [3. Monitoring Tools](DATA/3.Monitoring.Tools.md)

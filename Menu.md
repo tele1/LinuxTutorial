@@ -46,6 +46,7 @@ Table of Contents.
     *  5.2 Run from new user account
     *  5.3 Run with default language
     *  5.4 How to use strace command
+    *  5.5 How search help
 
 
 * ## 6. Introduction to System Logs

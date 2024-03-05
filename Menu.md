@@ -1,7 +1,7 @@
 # Experience with system logs
 
-Version:             5 Beta    
-Last Edition:      18/11/2021  
+Version:             6 Beta    
+Last Edition:      05/03/2024  
 License:             GNU GPL v3    
 Used markup language:      **Markdown** <https://daringfireball.net/projects/markdown/syntax>       
 Used editor:                         **ReText**  
@@ -14,7 +14,8 @@ Table of Contents.
 
 
 * ## 1. History
-    *  1.1 History installed packages: 
+    *  1.1 History installed packages 
+    (**only for apt based systems**): 
         *  [1.1.1 From Terminal](DATA/1.1.1.From.Terminal.md)
         *  [1.1.2 From Synaptic](DATA/1.1.2.From.Synaptic.md)
             ( history of manually installed packages does not exist ) 
@@ -46,7 +47,8 @@ Table of Contents.
     *  5.2 Run from new user account
     *  5.3 Run with default language
     *  5.4 How to use strace command
-    *  5.5 How search help
+    *  5.5 How search help inside system
+    *  6.6 Just information:
 
 
 * ## 6. Introduction to System Logs

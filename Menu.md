@@ -4,7 +4,7 @@ Version:             6 Beta
 Last Edition:      05/03/2024  
 License:             GNU GPL v3    
 Used markup language:      **Markdown** <https://daringfireball.net/projects/markdown/syntax>       
-Used editor:                         **ReText**  
+Used editor:               **ReText**  
 
 
 
@@ -17,14 +17,40 @@ Table of Contents.
     *  1.1 History installed packages 
     (**only for apt based systems**): 
         *  [1.1.1 From Terminal](DATA/1.1.1.From.Terminal.md)
-        *  [1.1.2 From Synaptic](DATA/1.1.2.From.Synaptic.md)
+        *  [1.1.2 From Synaptic](DATA/1.1.2.From.Synaptic.md)  
             ( history of manually installed packages does not exist ) 
     *  [1.2 History of terminal commands](DATA/1.2.History.of.terminal.commands.md)
 
 
-* ## [2. System and Hardware Information Tools](DATA/2.System.and.Hardware.Information.Tools.md)
-    * Larger tools
-    * Examples of smaller other tools:
+* ## 2. System and Hardware Information Tools
+
+    * [2.1 Larger Tools](DATA/2.Information.Tools/2.1.Larger.Tools.md)
+
+    * [2.2.1 Smaller: For Hardware](DATA/2.Information.Tools/2.2.1.Smaller.For.Hardware.md)
+
+        * 2.2.1.1 Bios / UEFI ( DMI table - dmidecode )
+        * 2.2.1.2 Hard Drive ( lsblk )
+        * 2.2.1.3 RAM Memory ( DMI table - dmidecode )
+        * 2.2.1.4 PCI Devices ( lspci )
+        * 2.2.1.5 Procesor ( lscpu )
+        * 2.2.1.6 SATA / IDE ( hdparm )
+        * 2.2.1.7 Sensors ( sensors )
+        * 2.2.1.8 USB Devices ( lsusb )
+
+
+    * [2.2.2 Smaller: For System](DATA/2.Information.Tools/2.2.2.Smaller.For.System.md)
+
+        * 2.2.2.1 Available RAM Memory
+        * 2.2.2.2 File System / Partitions ( lsblk - gparted )
+        * 2.2.2.3 Files ( df - lsof )
+        * 2.2.2.4 Kernel ( uname )
+        * 2.2.2.5 Mount a Filesystem ( mount )
+        * 2.2.2.6 Network ( ip ) / Open Ports ( lsof )
+        * 2.2.2.7 Running Processes ( ps -aux )
+        * 2.2.2.8 Sound Server ( /dev/snd/* )
+        * 2.2.2.9 System ( /etc/*release )
+        * 2.2.2.10 Task Schedule ( Cron / Systemd Timer )
+        * 2.2.2.11 Users ( last )
 
 
 * ## [3. Monitoring Tools](DATA/3.Monitoring.Tools.md)
@@ -32,6 +58,7 @@ Table of Contents.
     * 3.2  Netdata
     * 3.3  Conky
     * 3.4  GNU Krell Monitors
+    * 3.5  GSmartControl
 
 
 * ## 4. Diagnostic Tools for Hardware
@@ -39,7 +66,7 @@ Table of Contents.
     *  [4.2 For Memory RAM](DATA/4.2.For.Memory.RAM.md)  
     *  You can find ISO with complete set of tools <http://www.ultimatebootcd.com/>
     *  [4.3 For Network](DATA/4.3.For.Network.md)
-    * Sometimes some tools may also be included in the BIOS / UEFI
+    * 4.4 Sometimes some tools may also be included in the BIOS / UEFI
 
 
 * ## [5. How Debug Apps](DATA/5.How.Debug.Apps.md)

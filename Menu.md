@@ -1,11 +1,8 @@
-# Experience with system logs
+# Experience in finding the cause of a fault on Linux.
 
-Version:             6 Beta    
-Last Edition:      05/03/2024  
+Version:             7 Beta    
+Last Edition:        18/09/2024  
 License:             GNU GPL v3    
-Used markup language:      **Markdown** <https://daringfireball.net/projects/markdown/syntax>       
-Used editor:               **ReText**  
-
 
 
 ----------------------
@@ -13,7 +10,8 @@ Used editor:               **ReText**
 Table of Contents.  
 
 
-* ## 1. History
+* ## 1. History 
+
     *  1.1 History installed packages 
     (**only for apt based systems**): 
         *  [1.1.1 From Terminal](DATA/1.1.1.From.Terminal.md)
@@ -25,6 +23,10 @@ Table of Contents.
 * ## 2. System and Hardware Information Tools
 
     * [2.1 Larger Tools](DATA/2.Information.Tools/2.1.Larger.Tools.md)
+
+        * 2.1.1 Inxi
+        * 2.1.2 Hardinfo
+        * 2.1.3 Neofetch
 
     * [2.2.1 Smaller: For Hardware](DATA/2.Information.Tools/2.2.1.Smaller.For.Hardware.md)
 
@@ -54,22 +56,28 @@ Table of Contents.
 
 
 * ## [3. Monitoring Tools](DATA/3.Monitoring.Tools.md)
+
     * 3.1 System monitor / Task Manager
-    * 3.2  Netdata
-    * 3.3  Conky
-    * 3.4  GNU Krell Monitors
-    * 3.5  GSmartControl
+    * 3.2 Netdata
+    * 3.3 Conky
+    * 3.4 GNU Krell Monitors
+    * 3.5 GSmartControl
 
 
-* ## 4. Diagnostic Tools for Hardware
-    *  [4.1 For Hard drive](DATA/4.1.For.Hard.drive.md)
-    *  [4.2 For Memory RAM](DATA/4.2.For.Memory.RAM.md)  
-    *  You can find ISO with complete set of tools <http://www.ultimatebootcd.com/>
-    *  [4.3 For Network](DATA/4.3.For.Network.md)
-    * 4.4 Sometimes some tools may also be included in the BIOS / UEFI
+* ## [4. Diagnostic Tools for Hardware](DATA/4.Diagnostic.Tools.md)
+
+    * 4.1 Single Tools
+        * 4.1.1 Hard Drive ( smartmontools, GSmartControl )
+        * 4.1.2 RAM Memory ( Memtest86, Memtest86+ )
+        * 4.1.3 Network
+
+    * 4.2 Tool Kit
+        * 4.2.1 Ultimate Boot CD / UBCD 
+        * 4.2.2 Sometimes tools are in BIOS / UEFI
 
 
 * ## [5. How Debug Apps](DATA/5.How.Debug.Apps.md)
+
     *  5.1 Run from Terminal
     *  5.2 Run from new user account
     *  5.3 Run with default language
@@ -137,10 +145,12 @@ Table of Contents.
     * 10.5 Books
 
 
-* ## 11. A few words to close
-    * [11.1 Time format](DATA/11.1.Time.format.md)
-    * [11.2 Help develop it](DATA/11.2.Help.develop.it.md) 
-    * [11.3 How this tutorial was built](DATA/11.3.How.this.tutorial.was.build.md)
+* ## [11. How to develop it](DATA/11.How.to.develop.it.md)
+
+    * 11.1 Help develop it.
+    * 11.2 Time format.
+    * 11.3 How this tutorial was built.
+
 
 --------------------------
 

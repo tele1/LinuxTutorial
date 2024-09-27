@@ -1,7 +1,7 @@
 # Experience in finding the cause of a fault on Linux.
 
-Version:             7 Beta    
-Last Edition:        18/09/2024  
+Version:             8 Beta    
+Last Edition:        27/09/2024  
 License:             GNU GPL v3    
 
 
@@ -26,7 +26,7 @@ Table of Contents.
 
         * 2.1.1 Inxi
         * 2.1.2 Hardinfo
-        * 2.1.3 Neofetch
+        * 2.1.3 Fastfetch
 
     * [2.2.1 Smaller: For Hardware](DATA/2.Information.Tools/2.2.1.Smaller.For.Hardware.md)
 
@@ -76,7 +76,7 @@ Table of Contents.
         * 4.2.2 Sometimes tools are in BIOS / UEFI
 
 
-* ## [5. How Debug Apps](DATA/5.How.Debug.Apps.md)
+* ## [5. How to Debug Apps](DATA/5.How.Debug.Apps.md)
 
     *  5.1 Run from Terminal
     *  5.2 Run from new user account
@@ -87,7 +87,7 @@ Table of Contents.
 
 
 * ## 6. Introduction to System Logs
-    *  [6.1 System logs](DATA/6.1.System.logs.md)
+    *  [6.1 System Logs](DATA/6.1.System.logs.md)
         * 6.1.1 Init
         * 6.1.2 Systemd
     * [6.2 Desktop Environment](DATA/6.2.Desktop.Environment.md)
@@ -108,22 +108,22 @@ Table of Contents.
     * [6.4 Computer Monitor](DATA/6.4.Computer.Monitor.md)
          * 1.4.1 EDID
          * 1.4.2 HiDPi Scaling
-    * [6.5 kernel ACPI](DATA/6.5.kernel.ACPI.md)
+    * [6.5 Kernel ACPI](DATA/6.5.kernel.ACPI.md)
 
 
 * ## 7. Get errors from system logs
     * [7.1 Info](DATA/7.1.Info.md)
     * [7.2 ~/.xsession-errors](DATA/7.2.xsession.errors.md)
     * [7.3 /var/log/Xorg.0.log](DATA/7.3.Xorg.0.log.md)
-    * [7.4 syslog or rsyslog](DATA/7.4.Syslog.md)
+    * [7.4 Syslog or Rsyslog](DATA/7.4.Syslog.md)
     * [7.5 journalctl](DATA/7.5.journalctl.md)
         * 2.5.1 List of logs
         * 2.5.2  Filtering output for critical errors
         * 2.5.3  Limit the output to a specific time range
-    * [7.6 Processing and comparing logs](DATA/7.6.Processing.and.comparing.logs.md)
+    * [7.6 Processing and Comparing Logs](DATA/7.6.Processing.and.comparing.logs.md)
 
 
-* ## [8. Compressing logs](DATA/8.Compressing.logs.md)
+* ## [8. Compressing Logs](DATA/8.Compressing.logs.md)
     * 8.1 Text file
     * 8.2 Output of journalctl
         * 8.2.1 Compression method to zip file.
@@ -131,13 +131,13 @@ Table of Contents.
 
 
 * ## 9. How to find a solution? 
-    * [9.1 Find the package name](DATA/)
-    * [9.2 Find on the internet](DATA/)
-    * [9.3 Find bug tracking place](DATA/9.3.Find.bug.tracking.place.md)
+    * [9.1 Find the Package Name](DATA/)
+    * [9.2 Find on the Internet](DATA/)
+    * [9.3 Find Bug Tracking Place](DATA/9.3.Find.bug.tracking.place.md)
         * [9.3.1 Example other bug tracking places](DATA/9.3.1.Example.bug.tracking.places.md)
 
 
-* ## [10. Useful links](DATA/10.Useful.links.md)
+* ## [10. Useful Links](DATA/10.Useful.links.md)
     * 10.1 Diagnosing Problems
     * 10.2 Documentation
     * 10.3 Linux Wiki
@@ -145,7 +145,7 @@ Table of Contents.
     * 10.5 Books
 
 
-* ## [11. How to develop it](DATA/11.How.to.develop.it.md)
+* ## [11. How to Develop It](DATA/11.How.to.develop.it.md)
 
     * 11.1 Help develop it.
     * 11.2 Time format.

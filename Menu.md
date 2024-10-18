@@ -1,7 +1,7 @@
 # Experience in finding the cause of a fault on Linux.
 
-Version:             8 Beta    
-Last Edition:        27/09/2024  
+Version:             9 Beta    
+Last Edition:        18/10/2024  
 License:             GNU GPL v3    
 
 
